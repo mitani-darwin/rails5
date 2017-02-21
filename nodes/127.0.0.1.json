@@ -1,0 +1,9 @@
+{
+  "run_list": [
+    "recipe[rails5::rbenv]",
+    "recipe[rails5::rails5]"
+  ],
+  "automatic": {
+    "ipaddress": "127.0.0.1"
+  }
+}
